@@ -31,7 +31,7 @@
 }
 
 .client-contact__form {
-    width: 423px;
+    max-width: 423px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
