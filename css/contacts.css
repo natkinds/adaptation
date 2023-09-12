@@ -1,0 +1,20 @@
+.contacts {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.contacts__phone {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contacts__button {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #FFFFFF;
+}
