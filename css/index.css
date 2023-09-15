@@ -16,6 +16,281 @@
 
 @import "footer.css";
 
-@import "section.css";
-
 @import "contacts.css";
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .contacts__phone {
+        font-size: 21px;
+    }
+
+    .contacts__button {
+        font-size: 13px;
+    }
+
+    .header {
+        padding-top: 26px;
+    }
+
+    .hero {
+        padding: 156px 0 70px;
+    }
+
+    .hero__title {
+        max-width: 780px;
+        margin-bottom: 27.5px;
+        font-size: 40px;
+    }
+
+    .hero__text {
+        max-width: 754px;
+        margin-bottom: 60px;
+        font-size: 18px;
+        line-height: 140.625%;
+    }
+
+    .hero__button {
+        padding: 11px 49px;
+    }
+
+    .advantages__title {
+        margin-bottom: 23px;
+        font-size: 32px;
+    }
+
+    .advantages__subtitle {
+        margin-bottom: 33px;
+        font-size: 20px;
+    }
+    
+    .advantages__subtitle::before, .advantages__subtitle::after {
+        content: "";
+        width: 40px;
+        height: 2px;
+    }
+    
+    .advantages__subtitle::before {
+        margin-right: 20px;
+    }
+    
+    .advantages__subtitle::after {
+        margin-left: 20px;
+    }
+
+    .advantages__text {
+        margin-bottom: 50px;
+        max-width: 666px;
+        font-size: 16px;
+    }
+
+    .advantages__list {
+        max-width: 870px;
+    }
+    
+    .advantages__list-item-title {
+        width: 104px;
+        height: 104px;
+        margin-bottom: 26px;
+        font-size: 52px;
+        line-height: 140.625%;
+    }
+    
+    .advantages__list-item-text {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .client-contact {
+        padding-bottom: 56px;
+    }
+
+    .client-contact__title {
+        margin-bottom: 16px;
+        font-size: 32px;
+    }
+    
+    .client-contact__text {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .client-contact__form {
+        max-width: 377px;
+        margin-bottom: 30px;
+    }
+
+    .client-contact__input {
+        margin-bottom: 20px;
+        padding: 8px 23px;
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+    }
+
+    .client-contact__input::placeholder {
+        font-size: 20px;
+        line-height: normal;
+    }
+    
+    .client-contact__agreement {
+        font-size: 17px;
+    }
+
+    .footer__hero {
+        padding: 37px 0 49px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+        padding: 0 15px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+
+    .phone-icon__wrapper {
+        display: block;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .header {
+        padding-top: 15px;
+    }
+
+    .hero {
+        padding: 110px 0 65px;
+    }
+
+    .hero__title {
+        max-width: 100%;
+        margin-bottom: 23px;
+        font-size: 20px;
+    }
+
+    .hero__text {
+        max-width: 100%;
+        margin-bottom: 54px;
+        font-size: 14px;
+        line-height: 140.625%;
+    }
+
+    .hero__button {
+        padding: 9px 29px;
+        font-size: 16px;
+    }
+
+    .advantages {
+        padding: 30px 0 60px;
+    }
+
+    .advantages__title {
+        max-width: 100%;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .advantages__subtitle {
+        margin-bottom: 26px;
+        font-size: 16px;
+    }
+    
+    .advantages__subtitle::before, .advantages__subtitle::after {
+        content: "";
+        width: 20px;
+        height: 1px;
+    }
+
+    .advantages__subtitle::before {
+        margin-right: 22px;
+    }
+    
+    .advantages__subtitle::after {
+        margin-left: 22px;
+    }
+
+    .advantages__text {
+        max-width: 100%;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+
+    .advantages__list {
+        justify-content: center;
+        row-gap: 40px;
+        max-width: 190px;
+    }
+    
+    .advantages__list-item-text {
+        width: 100%;
+    }
+
+    .client-contact {
+        padding: 30px 0;
+    }
+
+    .client-contact__title {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .client-contact__text {
+        margin-bottom: 35px;
+        font-size: 12px;
+    }
+
+    .client-contact__form {
+        max-width: 100%;
+    }
+
+    .client-contact__input {
+        margin-bottom: 15px;
+        padding: 6px 18px;
+        font-size: 14px;
+        border: 1px solid #FFFFFF;
+    }
+
+    .client-contact__input:nth-child(3) {
+        margin-bottom: 45px;
+    }
+
+    .client-contact__input::placeholder {
+        font-size: 14px;
+    }
+
+    .client-contact__button {
+        padding: 10px 26px;
+        font-size: 16px;
+    }
+
+    .client-contact__agreement {
+        font-size: 11px;
+    }
+
+    .footer__hero {
+        padding: 25px 0;
+    }
+
+    .footer__copyrights {
+        font-size: 8px;
+    }
+
+    .footer__developer-wrapper {
+        display: block;
+    }
+
+    .footer__developer_container_1200px {
+        display: none;
+    }
+}

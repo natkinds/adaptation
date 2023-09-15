@@ -1,8 +1,12 @@
 .footer {
+
+}
+
+.footer__hero {
     padding: 45px 0;
 }
 
-.footer__wrapper {
+.footer__hero-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,8 +28,23 @@
     line-height: 140.625%;
 }
 
+.footer__developer-wrapper {
+    display: none;
+    padding: 15px 0;
+    background-color: #2A2C3F;
+}
+
 .footer__developer {
     font-size: 12px;
     font-weight: 500;
     line-height: 140.625%;
+}
+
+.footer__developer_container_1200px {
+
+}
+
+.footer__developer_container_320px {
+    display: block;
+    text-align: center;
 }

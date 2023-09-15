@@ -70,8 +70,12 @@ iframe {
     padding: 0 30px;
 }
 
-@media (max-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }
+.section {
+    padding: 70px 0;
+}
+
+.phone-icon__wrapper {
+    display: none;
+    width: 25px;
+    height: 24px;
 }

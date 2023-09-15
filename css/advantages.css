@@ -16,7 +16,7 @@
     align-items: center;
     width: fit-content;
     margin: 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     font-size: 22px;
     font-weight: 500;
     line-height: normal;
@@ -48,15 +48,16 @@
 
 .advantages__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 50px;
     max-width: 934px;
     margin: 0 auto;
-    /* column-gap: 50px; */
 }
 
 .advantages__list-item {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     align-items: center;
     width: fit-content;
 }
@@ -69,7 +70,6 @@
     height: 122px;
     margin-bottom: 16px;
     font-size: 57px;
-    font-style: normal;
     font-weight: 500;
     line-height: 100%;
     color: #ffffff;
