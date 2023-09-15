@@ -79,3 +79,9 @@ iframe {
     width: 25px;
     height: 24px;
 }
+
+.phone-button {
+    display: block;
+    width: fit-content;
+    height: 24px;
+}
