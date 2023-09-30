@@ -40,6 +40,10 @@
     line-height: 140.625%;
 }
 
+.footer__phone-icon {
+    display: none;
+}
+
 .footer__developer_container_1200px {
 
 }
@@ -47,4 +51,45 @@
 .footer__developer_container_320px {
     display: block;
     text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .footer__hero {
+        padding: 37px 0 49px;
+    }
+
+    .footer__developer-text_container_1024px {
+        display: none;
+    }
+}
+
+@media (max-width: 610px) {
+    .footer__developer_container_1200px {
+        display: none;
+    }
+
+    .footer__developer-wrapper {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__contacts {
+        display: none;
+    }
+
+    .footer__phone-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__hero {
+        padding: 25px 0;
+    }
+
+    .footer__copyrights {
+        max-width: 87px;
+        font-size: 8px;
+    }
 }

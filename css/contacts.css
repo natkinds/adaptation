@@ -19,3 +19,13 @@
     line-height: normal;
     border-bottom: 1px solid #FFFFFF;
 }
+
+@media (max-width: 1024px) {
+    .contacts__phone {
+        font-size: 21px;
+    }
+
+    .contacts__button {
+        font-size: 13px;
+    }
+}

@@ -4,6 +4,8 @@
 
 @import "style.css";
 
+@import "contacts.css";
+
 @import "header.css";
 
 @import "main.css";
@@ -16,10 +18,8 @@
 
 @import "footer.css";
 
-@import "contacts.css";
-
 @media (max-width: 1024px) {
-    .container {
+    /* .container {
         max-width: 1024px;
     }
 
@@ -37,9 +37,9 @@
 
     .header {
         padding-top: 26px;
-    }
+    } */
 
-    .hero {
+    /* .hero {
         padding: 156px 0 70px;
     }
 
@@ -58,9 +58,9 @@
 
     .hero__button {
         padding: 11px 49px;
-    }
+    } */
 
-    .advantages__title {
+    /* .advantages__title {
         margin-bottom: 23px;
         font-size: 32px;
     }
@@ -105,9 +105,9 @@
     .advantages__list-item-text {
         width: 180px;
         font-size: 18px;
-    }
+    } */
 
-    .client-contact {
+    /* .client-contact {
         padding-bottom: 56px;
     }
 
@@ -140,15 +140,19 @@
     
     .client-contact__agreement {
         font-size: 17px;
-    }
+    } */
 
-    .footer__hero {
+    /* .footer__hero {
         padding: 37px 0 49px;
     }
+
+    .footer__developer-text_container_1024px {
+        display: none;
+    } */
 }
 
 @media (max-width: 320px) {
-    .container {
+    /* .container {
         max-width: 320px;
         padding: 0 15px;
     }
@@ -167,9 +171,9 @@
 
     .header {
         padding-top: 15px;
-    }
+    } */
 
-    .hero {
+    /* .hero {
         padding: 110px 0 65px;
     }
 
@@ -186,12 +190,16 @@
         line-height: 140.625%;
     }
 
+    .hero__text_container_320px {
+        display: none;
+    }
+
     .hero__button {
         padding: 9px 29px;
         font-size: 16px;
-    }
+    } */
 
-    .advantages {
+    /* .advantages {
         padding: 30px 0 60px;
     }
 
@@ -234,9 +242,9 @@
     
     .advantages__list-item-text {
         width: 100%;
-    }
+    } */
 
-    .client-contact {
+    /* .client-contact {
         padding: 30px 0;
     }
 
@@ -276,9 +284,9 @@
 
     .client-contact__agreement {
         font-size: 11px;
-    }
+    } */
 
-    .footer__hero {
+    /* .footer__hero {
         padding: 25px 0;
     }
 
@@ -292,5 +300,5 @@
 
     .footer__developer_container_1200px {
         display: none;
-    }
+    } */
 }
