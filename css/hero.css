@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    padding: 228px 0 120px;
+    padding: 227px 0 120px;
 }
 
 .hero::after {
@@ -26,17 +26,17 @@
 
 .hero__title {
     max-width: 990px;
-    margin-bottom: 35px;
+    margin-bottom: 32px;
     text-align: center;
     font-size: 52px;
     font-weight: 900;
-    line-height: normal;
+    line-height: 62px;
     color: #ffffffdb;
 }
 
 .hero__text {
     max-width: 960px;
-    margin-bottom: 90px;
+    margin-bottom: 89px;
     text-align: center;
     color: #ffffffbf;
 }

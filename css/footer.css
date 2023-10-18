@@ -35,6 +35,7 @@
 }
 
 .footer__developer {
+    margin-left: -4px;
     font-size: 12px;
     font-weight: 500;
     line-height: 140.625%;

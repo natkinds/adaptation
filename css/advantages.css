@@ -2,6 +2,7 @@
     text-align: center;
     color: #383A4C;
     background-color: #F9F9F9;
+    padding-bottom: 73px;
 }
 
 .advantages__title {
@@ -16,7 +17,7 @@
     align-items: center;
     width: fit-content;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 34px;
     font-size: 22px;
     font-weight: 500;
     line-height: normal;
@@ -39,7 +40,7 @@
 
 .advantages__text {
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 58px;
     max-width: 724px;
     font-size: 18px;
     font-weight: 400;
@@ -68,13 +69,14 @@
 .advantages__list-item-title {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     width: 122px;
     height: 122px;
-    margin-bottom: 16px;
+    padding-top: 37px; /* это сделано для пиксель перфект, убрал алайн айтемс центр */
+    margin-bottom: 14px;
     font-size: 57px;
     font-weight: 500;
-    line-height: 100%;
+    line-height: 57px;
     color: #ffffff;
     background-color: #23C7EC;
     border-radius: 50%;

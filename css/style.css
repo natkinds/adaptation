@@ -71,7 +71,8 @@ iframe {
 }
 
 .section {
-    padding: 70px 0;
+    padding-top: 69px;
+    padding-bottom: 70px;
 }
 
 .phone-icon__wrapper {
